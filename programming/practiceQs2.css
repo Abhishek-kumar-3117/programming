@@ -1,0 +1,91 @@
+/* h1{
+    font-family:league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-decoration: teal double underline;
+    line-height: 1.5;
+    text-transform: uppercase;
+} */
+
+/* h1 {
+    color:pink;
+}
+
+#greet{
+    color:yellow;
+}
+
+.myClass{
+    color:brown;
+} */
+
+#mainTopic{
+    color:blue;
+
+}
+
+*{
+    text-align:center;
+}
+
+h1 h3 h5{
+    font-family:Georgia;
+}
+
+button{
+    background-color:purple;
+    color:azure;
+}
+
+button:hover{
+    background-color:yellow;
+    color:blue;
+}
+
+h1::first-letter{
+    color:red;
+}
+
+#yes:checked + label {
+    color: darkgreen;
+}
+
+p:nth-of-type(2n+1) {
+    color: yellow;
+}
+
+.a{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+
+
+#mybox {
+    height: 150px;
+    width: 300px;
+    background-color: gray;
+    border: 5px black dotted;
+    margin-top: 20px;
+    margin-right: 1em;
+    margin-bottom: 40px;
+    margin-left: 2em;
+    padding: 1em;
+}
+
+
+.box {
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+li{
+    display: inline;
+}

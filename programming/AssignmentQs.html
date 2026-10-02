@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!--QS1-->
+     <table border="black">
+        <caption>Student Information</caption>
+        <head>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+        </head>>
+        <head>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        </head>
+        <body>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+            
+        </body>
+
+     </table>
+     <hr>
+     <!--QS2-->
+     <form>
+      <label for="name">Name:</label>
+      <input type="text" name="name" id="name">
+      <br/><br/>
+      <label for="male">Sex:</label>
+      <input type="radio" name="sex" value="male" id="male"> Male
+      <input type="radio" name="sex" value="female" id="female"> Female
+      <br/><br/>
+        <label for="country">Country</label>
+        <select name="country" id="country">
+            <option>Select an option</option>
+            <option>India</option>
+            <option>Nepal</option>
+            <option>USA</option>
+            <option>Canada</option>
+        </select>
+        <br>
+        <br>
+        <label for="message">Message:</label>
+        <textarea name="message" id="message" rows="5" cols="30"></textarea>
+        <br/><br>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Subscribe?</label>
+        <br/><br>
+        <button>Submit</button>
+     </form>
+
+     <!--QS3-->
+     
+     <h2> Feedback Form</h2>
+         <form action="/action">
+            <lable for="name">Name:</lable>
+            <input type="text" placeholder="Write your name">
+            <br/><br>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="write your email">
+            <br/><br>
+            <label for="message">Message:</label>
+            <textarea name="message" id="message" rows="4" cols="30"></textarea>
+            <br/><br>
+            <label for="rating">Rate us our of 5:</label><br/>
+            <input type="radio"name="rating"id="one"value="one"/>
+            <label for="one">1</label><br/>
+            <input type="radio"name="rating"id="two"value="two"/>
+            <label for="two">2</label><br/>
+            <input type="radio"name="rating"id="three"value="three"/>
+            <label for="three">3</label><br/>
+            <input type="radio"name="rating"id="four"value="four"/>
+            <label for="four">4</label><br/>
+            <input type="radio"name="rating"id="five"value="five"/>
+            <label for="five">5</label><br/>
+            <br/><br/><button>Sendyourmessage!</button>
+
+        </form>
+
+
+</body>
+</html>
